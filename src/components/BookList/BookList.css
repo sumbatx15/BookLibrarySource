@@ -1,0 +1,15 @@
+.book-list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0; }
+  .book-list li {
+    max-width: 300px;
+    background: #fff;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px; }
